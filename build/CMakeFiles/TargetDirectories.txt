@@ -1,0 +1,3 @@
+/home/dayron/Geant4/DBOX/build/CMakeFiles/rebuild_cache.dir
+/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir
+/home/dayron/Geant4/DBOX/build/CMakeFiles/edit_cache.dir
