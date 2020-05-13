@@ -153,12 +153,87 @@ CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o.provides: CMakeFiles/DBO
 CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o
 
 
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.o: CMakeFiles/DBOX.dir/flags.make
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.o: ../src/DBOXRun.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dayron/Geant4/DBOX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DBOX.dir/src/DBOXRun.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBOX.dir/src/DBOXRun.cc.o -c /home/dayron/Geant4/DBOX/src/DBOXRun.cc
+
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBOX.dir/src/DBOXRun.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dayron/Geant4/DBOX/src/DBOXRun.cc > CMakeFiles/DBOX.dir/src/DBOXRun.cc.i
+
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBOX.dir/src/DBOXRun.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dayron/Geant4/DBOX/src/DBOXRun.cc -o CMakeFiles/DBOX.dir/src/DBOXRun.cc.s
+
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.requires:
+
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.requires
+
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.provides: CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.requires
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.provides.build
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.provides
+
+CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.provides.build: CMakeFiles/DBOX.dir/src/DBOXRun.cc.o
+
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o: CMakeFiles/DBOX.dir/flags.make
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o: ../src/DBOXRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dayron/Geant4/DBOX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o -c /home/dayron/Geant4/DBOX/src/DBOXRunAction.cc
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dayron/Geant4/DBOX/src/DBOXRunAction.cc > CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.i
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dayron/Geant4/DBOX/src/DBOXRunAction.cc -o CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.s
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.requires:
+
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.requires
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.provides: CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.provides.build
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.provides
+
+CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.provides.build: CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o
+
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o: CMakeFiles/DBOX.dir/flags.make
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o: ../src/DBOXTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dayron/Geant4/DBOX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o -c /home/dayron/Geant4/DBOX/src/DBOXTrackingAction.cc
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dayron/Geant4/DBOX/src/DBOXTrackingAction.cc > CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.i
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dayron/Geant4/DBOX/src/DBOXTrackingAction.cc -o CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.s
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.requires:
+
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.requires
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.provides: CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.provides.build
+.PHONY : CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.provides
+
+CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.provides.build: CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o
+
+
 # Object files for target DBOX
 DBOX_OBJECTS = \
 "CMakeFiles/DBOX.dir/DBOX.cc.o" \
 "CMakeFiles/DBOX.dir/src/DBOXActionInitialization.cc.o" \
 "CMakeFiles/DBOX.dir/src/DBOXDetectorConstruction.cc.o" \
-"CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o"
+"CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o" \
+"CMakeFiles/DBOX.dir/src/DBOXRun.cc.o" \
+"CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o" \
+"CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o"
 
 # External object files for target DBOX
 DBOX_EXTERNAL_OBJECTS =
@@ -167,6 +242,9 @@ DBOX: CMakeFiles/DBOX.dir/DBOX.cc.o
 DBOX: CMakeFiles/DBOX.dir/src/DBOXActionInitialization.cc.o
 DBOX: CMakeFiles/DBOX.dir/src/DBOXDetectorConstruction.cc.o
 DBOX: CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o
+DBOX: CMakeFiles/DBOX.dir/src/DBOXRun.cc.o
+DBOX: CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o
+DBOX: CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o
 DBOX: CMakeFiles/DBOX.dir/build.make
 DBOX: /home/dayron/Applications/Geant4/geant4-install/lib/libG4Tree.so
 DBOX: /home/dayron/Applications/Geant4/geant4-install/lib/libG4GMocren.so
@@ -215,7 +293,7 @@ DBOX: /home/dayron/Applications/Geant4/geant4-install/lib/libG4intercoms.so
 DBOX: /home/dayron/Applications/Geant4/geant4-install/lib/libG4global.so
 DBOX: /home/dayron/Applications/CLHEP/CLHEP-install/lib/libCLHEP-2.4.1.3.so
 DBOX: CMakeFiles/DBOX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dayron/Geant4/DBOX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DBOX"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dayron/Geant4/DBOX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DBOX"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DBOX.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -227,6 +305,9 @@ CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/DBOX.cc.o.requires
 CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXActionInitialization.cc.o.requires
 CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXDetectorConstruction.cc.o.requires
 CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o.requires
+CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXRun.cc.o.requires
+CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o.requires
+CMakeFiles/DBOX.dir/requires: CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o.requires
 
 .PHONY : CMakeFiles/DBOX.dir/requires
 

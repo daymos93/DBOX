@@ -3,9 +3,10 @@
 #include "DBOXDetectorConstruction.hh"
 #include "DBOXPrimaryGeneratorAction.hh"
 
-//#include "DBOXRunAction.hh"       //User Actions headers
+#include "DBOXRunAction.hh"       //User Actions headers para ser inicializadas por el RunManager
 //#include "DBOXEventAction.hh"
 //#include "DBOXSteppingAction.hh"
+#include "DBOXTrackingAction.hh"
 
 
 
@@ -31,7 +32,7 @@ void DBOXActionInitialization::BuildForMaster() const {
 	// object but not for the Worker RunAction objects)
 	//
 	// the primary-generator not used in the master RunAction only for the workers
-//    SetUserAction(new DBOXRunAction(fDBOXDetector));
+    SetUserAction(new DBOXRunAction(fDBOXDetector));
 }
 
 // Create all User Actions here: 
@@ -43,11 +44,14 @@ void DBOXActionInitialization::Build() const {
   DBOXPrimaryGeneratorAction* primaryAction = new DBOXPrimaryGeneratorAction(fDBOXDetector);
   SetUserAction(primaryAction);
   // Set UserRunAction
-//  DBOXRunAction* runAction = new DBOXRunAction(fDBOXDetector, primaryAction);
-//  SetUserAction(runAction);
+  DBOXRunAction* runAction = new DBOXRunAction(fDBOXDetector, primaryAction);
+  SetUserAction(runAction);
   // Set UserEventAction
 //  DBOXEventAction* eventAction = new DBOXEventAction();
 //  SetUserAction(eventAction);
   // Set UserSteppingAction
 //  SetUserAction( new DBOXSteppingAction(fDBOXDetector, eventAction) );
+  // Set UserTrackingAction
+    SetUserAction(new DBOXTrackingAction(fDBOXDetector));
+
 }  

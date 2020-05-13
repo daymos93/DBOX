@@ -20,6 +20,22 @@ G4VUserPrimaryGeneratorAction.hh
 globals.hh
 ../inc/globals.hh
 
+../inc/DBOXRun.hh
+G4Run.hh
+../inc/G4Run.hh
+
+../inc/DBOXRunAction.hh
+G4UserRunAction.hh
+../inc/G4UserRunAction.hh
+G4String.hh
+../inc/G4String.hh
+
+../inc/DBOXTrackingAction.hh
+G4UserTrackingAction.hh
+../inc/G4UserTrackingAction.hh
+globals.hh
+../inc/globals.hh
+
 /home/dayron/Applications/CLHEP/CLHEP-install/lib/CLHEP-2.4.1.3/../../include/CLHEP/Geometry/BasicVector3D.h
 iosfwd
 -
@@ -2944,6 +2960,12 @@ G4ThreeVector.hh
 CLHEP/Vector/Rotation.h
 -
 
+/home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4Run.hh
+globals.hh
+/home/dayron/Applications/Geant4/geant4-install/include/Geant4/globals.hh
+vector
+-
+
 /home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4RunManager.hh
 G4RunManagerKernel.hh
 /home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4RunManagerKernel.hh
@@ -3617,6 +3639,10 @@ G4ios.hh
 /home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4ios.hh
 G4ParticleDefinition.hh
 /home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4ParticleDefinition.hh
+
+/home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4UserRunAction.hh
+G4Types.hh
+/home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4Types.hh
 
 /home/dayron/Applications/Geant4/geant4-install/include/Geant4/G4UserStackingAction.hh
 G4ClassificationOfNewTrack.hh
@@ -4427,6 +4453,10 @@ DBOXDetectorConstruction.hh
 /home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.hh
 DBOXPrimaryGeneratorAction.hh
 /home/dayron/Geant4/DBOX/src/DBOXPrimaryGeneratorAction.hh
+DBOXRunAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXRunAction.hh
+DBOXTrackingAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXTrackingAction.hh
 
 /home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.cc
 G4Box.hh
@@ -4457,4 +4487,44 @@ G4ParticleTable.hh
 /home/dayron/Geant4/DBOX/src/G4ParticleTable.hh
 DBOXDetectorConstruction.hh
 /home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.hh
+
+/home/dayron/Geant4/DBOX/src/DBOXRun.cc
+DBOXRun.hh
+/home/dayron/Geant4/DBOX/src/DBOXRun.hh
+DBOXDetectorConstruction.hh
+/home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.hh
+DBOXPrimaryGeneratorAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXPrimaryGeneratorAction.hh
+G4Material.hh
+/home/dayron/Geant4/DBOX/src/G4Material.hh
+iomanip
+-
+
+/home/dayron/Geant4/DBOX/src/DBOXRunAction.cc
+DBOXRunAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXRunAction.hh
+DBOXDetectorConstruction.hh
+/home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.hh
+DBOXPrimaryGeneratorAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXPrimaryGeneratorAction.hh
+DBOXRun.hh
+/home/dayron/Geant4/DBOX/src/DBOXRun.hh
+G4Run.hh
+/home/dayron/Geant4/DBOX/src/G4Run.hh
+Randomize.hh
+/home/dayron/Geant4/DBOX/src/Randomize.hh
+
+/home/dayron/Geant4/DBOX/src/DBOXTrackingAction.cc
+DBOXTrackingAction.hh
+/home/dayron/Geant4/DBOX/src/DBOXTrackingAction.hh
+DBOXDetectorConstruction.hh
+/home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.hh
+DBOXRun.hh
+/home/dayron/Geant4/DBOX/src/DBOXRun.hh
+G4Track.hh
+/home/dayron/Geant4/DBOX/src/G4Track.hh
+G4RunManager.hh
+/home/dayron/Geant4/DBOX/src/G4RunManager.hh
+G4Proton.hh
+/home/dayron/Geant4/DBOX/src/G4Proton.hh
 

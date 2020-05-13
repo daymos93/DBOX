@@ -231,6 +231,87 @@ src/DBOXPrimaryGeneratorAction.cc.s:
 	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.s
 .PHONY : src/DBOXPrimaryGeneratorAction.cc.s
 
+src/DBOXRun.o: src/DBOXRun.cc.o
+
+.PHONY : src/DBOXRun.o
+
+# target to build an object file
+src/DBOXRun.cc.o:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRun.cc.o
+.PHONY : src/DBOXRun.cc.o
+
+src/DBOXRun.i: src/DBOXRun.cc.i
+
+.PHONY : src/DBOXRun.i
+
+# target to preprocess a source file
+src/DBOXRun.cc.i:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRun.cc.i
+.PHONY : src/DBOXRun.cc.i
+
+src/DBOXRun.s: src/DBOXRun.cc.s
+
+.PHONY : src/DBOXRun.s
+
+# target to generate assembly for a file
+src/DBOXRun.cc.s:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRun.cc.s
+.PHONY : src/DBOXRun.cc.s
+
+src/DBOXRunAction.o: src/DBOXRunAction.cc.o
+
+.PHONY : src/DBOXRunAction.o
+
+# target to build an object file
+src/DBOXRunAction.cc.o:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o
+.PHONY : src/DBOXRunAction.cc.o
+
+src/DBOXRunAction.i: src/DBOXRunAction.cc.i
+
+.PHONY : src/DBOXRunAction.i
+
+# target to preprocess a source file
+src/DBOXRunAction.cc.i:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.i
+.PHONY : src/DBOXRunAction.cc.i
+
+src/DBOXRunAction.s: src/DBOXRunAction.cc.s
+
+.PHONY : src/DBOXRunAction.s
+
+# target to generate assembly for a file
+src/DBOXRunAction.cc.s:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.s
+.PHONY : src/DBOXRunAction.cc.s
+
+src/DBOXTrackingAction.o: src/DBOXTrackingAction.cc.o
+
+.PHONY : src/DBOXTrackingAction.o
+
+# target to build an object file
+src/DBOXTrackingAction.cc.o:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o
+.PHONY : src/DBOXTrackingAction.cc.o
+
+src/DBOXTrackingAction.i: src/DBOXTrackingAction.cc.i
+
+.PHONY : src/DBOXTrackingAction.i
+
+# target to preprocess a source file
+src/DBOXTrackingAction.cc.i:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.i
+.PHONY : src/DBOXTrackingAction.cc.i
+
+src/DBOXTrackingAction.s: src/DBOXTrackingAction.cc.s
+
+.PHONY : src/DBOXTrackingAction.s
+
+# target to generate assembly for a file
+src/DBOXTrackingAction.cc.s:
+	$(MAKE) -f CMakeFiles/DBOX.dir/build.make CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.s
+.PHONY : src/DBOXTrackingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +333,15 @@ help:
 	@echo "... src/DBOXPrimaryGeneratorAction.o"
 	@echo "... src/DBOXPrimaryGeneratorAction.i"
 	@echo "... src/DBOXPrimaryGeneratorAction.s"
+	@echo "... src/DBOXRun.o"
+	@echo "... src/DBOXRun.i"
+	@echo "... src/DBOXRun.s"
+	@echo "... src/DBOXRunAction.o"
+	@echo "... src/DBOXRunAction.i"
+	@echo "... src/DBOXRunAction.s"
+	@echo "... src/DBOXTrackingAction.o"
+	@echo "... src/DBOXTrackingAction.i"
+	@echo "... src/DBOXTrackingAction.s"
 .PHONY : help
 
 

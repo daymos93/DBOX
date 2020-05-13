@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dayron/Geant4/DBOX/src/DBOXActionInitialization.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXActionInitialization.cc.o"
   "/home/dayron/Geant4/DBOX/src/DBOXDetectorConstruction.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXDetectorConstruction.cc.o"
   "/home/dayron/Geant4/DBOX/src/DBOXPrimaryGeneratorAction.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXPrimaryGeneratorAction.cc.o"
+  "/home/dayron/Geant4/DBOX/src/DBOXRun.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXRun.cc.o"
+  "/home/dayron/Geant4/DBOX/src/DBOXRunAction.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXRunAction.cc.o"
+  "/home/dayron/Geant4/DBOX/src/DBOXTrackingAction.cc" "/home/dayron/Geant4/DBOX/build/CMakeFiles/DBOX.dir/src/DBOXTrackingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
