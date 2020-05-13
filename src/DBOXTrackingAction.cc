@@ -29,14 +29,31 @@ void DBOXTrackingAction::PostUserTrackingAction(const G4Track* track)
 
  //status of primary particle : absorbed, transmited, reflected ?
  //
- if (trackID == 1) {
+ /*if (trackID == 1) {
   G4int status = 0;
   if (!track->GetNextVolume()) {
     if (track->GetMomentumDirection().x() > 0.) status = 1;
     else                                        status = 2;
   }
   run->AddTrackStatus(status);
- }
+ }*/
+
+ if (trackID == 1) {
+  G4int status = 0;
+  if (!track->GetNextVolume()) {
+    if (track->GetMomentumDirection().x() > 0.) status = 1;
+    else                                        status = 2;
+  }
+  run->AddTrackStatus(1,status);
+ } else if (trackID == 2) {
+	 G4int status = 0;
+	   if (!track->GetNextVolume()) {
+	     if (track->GetMomentumDirection().x() > 0.) status = 1;
+	     else                                        status = 2;
+	   }
+	   run->AddTrackStatus(2,status);
+}
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

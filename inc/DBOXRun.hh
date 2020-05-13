@@ -76,7 +76,9 @@ class DBOXRun : public G4Run {
 
     //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-    void AddTrackStatus (G4int i);
+    void AddTrackStatus (G4int i, G4int j);
+//    void AddTrackStatus (struct ParticleData);
+
 
     //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -107,7 +109,14 @@ class DBOXRun : public G4Run {
     
     //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-    G4int      fStatus[3];
+    G4int      fStatusPrim[3];
+    G4int      fStatusSec[3];
+
+    //struct ParticleData {
+    //   G4String   fParticleName;
+    //   G4int      fTrackID;
+    //   G4int      i;
+    //  };
 
     //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

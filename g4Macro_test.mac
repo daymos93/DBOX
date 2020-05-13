@@ -1,0 +1,40 @@
+# ******************************************************************************
+# Geant4 macro file
+# ******************************************************************************
+
+# ------------------------------------------------------------------------------
+# to print the commands 
+/control/verbose 1
+
+# ------------------------------------------------------------------------------  
+# to print information regarding the Run e.g. timing
+/run/verbose 1
+
+# ------------------------------------------------------------------------------  
+# set number of worker threads to 4
+/run/numberOfThreads 4
+
+# ------------------------------------------------------------------------------
+# initialization of the Run 
+/run/initialize
+
+# ------------------------------------------------------------------------------
+# set the secondary production threshold smaller than the target thickness
+# (Note, this will be discussed during the advanced Geant4 course)
+#/run/setCut 1.0 um
+
+# ------------------------------------------------------------------------------
+# Set the primary generator (i.e. the Particle Gun) properties:
+# ==============================================================================  
+# set the particle energy to match the experimental one: 100 MeV
+/gun/energy 50 MeV
+# set the particle type to match the experimental one: electron
+/gun/particle proton
+
+# ------------------------------------------------------------------------------
+# report progress of the simulation at each 100 000 -th event
+/run/printProgress 100
+
+# ------------------------------------------------------------------------------
+# execute the simulation with 1 000 000 events
+/run/beamOn 1000

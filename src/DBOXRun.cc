@@ -29,7 +29,7 @@ DBOXRun::DBOXRun(DBOXDetectorConstruction* det, DBOXPrimaryGeneratorAction* prim
     //fIsActiveEdepHistogram = false;
     //fEdepHistogram = new Hist("Hist_Edep.dat", 0.0, 10.0*CLHEP::keV, 100);
 
-  	fStatus[0] = 0;
+  	fStatusPrim[0] = 0; fStatusPrim[1] = 0; fStatusSec[0] = 0; fStatusSec[1] = 0;
 }
 
 
@@ -67,9 +67,13 @@ void DBOXRun::Merge(const G4Run* run) {
   // run object but the master's RunAction do not have the PrimaryGenerator set.)
   fDBOXPrimary = localRun->fDBOXPrimary;
 
-  fStatus[0] += localRun->fStatus[0];
-  fStatus[1] += localRun->fStatus[1];
-  fStatus[2] += localRun->fStatus[2];
+  fStatusPrim[0] += localRun->fStatusPrim[0];
+  fStatusPrim[1] += localRun->fStatusPrim[1];
+  fStatusPrim[2] += localRun->fStatusPrim[2];
+
+  fStatusSec[0] += localRun->fStatusSec[0];
+  fStatusSec[1] += localRun->fStatusSec[1];
+  fStatusSec[2] += localRun->fStatusSec[2];
 
 	// Call the base class Merge method at the end to merge the base class members
 	G4Run::Merge(run);
@@ -80,10 +84,18 @@ void DBOXRun::Merge(const G4Run* run) {
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void DBOXRun::AddTrackStatus (G4int i)
+//void DBOXRun::AddTrackStatus (G4int i)
+//{
+//  fStatus[i]++ ;
+//}
+
+void DBOXRun::AddTrackStatus (G4int i, G4int j)
 {
-  fStatus[i]++ ;
+  if (i == 1) {
+	  fStatusPrim[j]++;
+  } else {fStatusSec[j]++;}
 }
+
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -141,7 +153,13 @@ void  DBOXRun::EndOfRunSummary() {
     //if (fIsActiveEdepHistogram) {
     //  fEdepHistogram->WriteToFile(true);
     //}
-
-    G4cout<< " Absorbed particles    : " << fStatus[0] <<"\n";
+    G4cout<< " =============  Primary Particles  ============= \n"
+          << " Absorbed particles    : " << fStatusPrim[0] <<"\n"
+		  << " Transmited particles    : " << fStatusPrim[1] <<"\n"
+		  <<"\n"
+		  << " ============  Secondary Particles  ============ \n"
+		  << " Absorbed particles    : " << fStatusSec[0] <<"\n"
+		  << " Transmited particles    : " << fStatusSec[1] <<"\n"
+		  << G4endl;
 
 }

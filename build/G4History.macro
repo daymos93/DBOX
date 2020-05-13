@@ -25,4 +25,5 @@
 /vis/scene/endOfEventAction accumulate 100
 /vis/viewer/set/viewpointThetaPhi -40 -50
 /vis/viewer/refresh
-/run/beamOn 100
+/run/beamOn 1
+/run/beamOn 5

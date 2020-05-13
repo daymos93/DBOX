@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
     
     // 
     // Initialize the RunManager and exeute 10 events
-    runManager->Initialize();
+//    runManager->Initialize();
 //    runManager->BeamOn(10);
     
 
@@ -111,11 +111,11 @@ int main(int argc, char** argv) {
       G4cerr << "  == Here we are after the batch execution! " << G4endl;
     } else {
       // interactive mode
-      //ui->SessionStart();
-      //G4cerr << "  == Here we are after the ui-session termination! " << G4endl;
-
-      UI->ApplyCommand("/control/execute ../init_vis.mac");
       ui->SessionStart();
+      G4cerr << "  == Here we are after the ui-session termination! " << G4endl;
+
+      //UI->ApplyCommand("/control/execute ../init_vis.mac");
+      //ui->SessionStart();
 
       delete ui;
     } 

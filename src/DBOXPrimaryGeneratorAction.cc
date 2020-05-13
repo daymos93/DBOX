@@ -33,7 +33,7 @@ void DBOXPrimaryGeneratorAction::SetDefaultKinematic() {
 	G4ParticleDefinition* part = G4ParticleTable::GetParticleTable()->FindParticle( "proton" );
     fParticleGun->SetParticleDefinition( part );
     fParticleGun->SetParticleMomentumDirection( G4ThreeVector(1., 0., 0.) );
-    fParticleGun->SetParticleEnergy( 20.*CLHEP::MeV );
+    fParticleGun->SetParticleEnergy( 30.*CLHEP::MeV );
     UpdatePosition();
 }
 
